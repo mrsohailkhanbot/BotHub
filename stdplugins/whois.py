@@ -49,14 +49,14 @@ async def _(event):
     caption = """Detailed Whois:
 
 🔖ID: <code>{}</code>
-🤵Name: <a href='tg://user?id={}'>{}</a>
-✍️Bio: {}
+🤵Rendi's Name: <a href='tg://user?id={}'>{}</a>
+✍️Rendi's Bio: {}
 🌏Data Centre Number: {}
-🖼Number of Profile Pics: {}
+🖼Rendi's Pic: {}
 🔏Restricted: {}
 🌐Verified: {}
 🤖Bot: {}
-👥Groups in Common: {}
+👥Rendi hamare same kitne group pr hai: {}
 
 
 List Of Telegram Data Centres:
