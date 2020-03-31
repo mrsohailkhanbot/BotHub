@@ -1,8 +1,10 @@
-"""Carbon Scraper Plugin for Userbot. //text in creative way.
+"""
+Carbon Scraper Plugin for Userbot. //text in creative way.
 usage: .carbon //as a reply to any text message
 
-Thanks to @r4v4n4 for vars"""
+Thanks to @r4v4n4 for vars
 
+"""
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
@@ -18,7 +20,7 @@ async def carbon_api(e):
  if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
    """ A Wrapper for carbon.now.sh """
    await e.edit("⬜⬜⬜⬜⬜")
-   CARBON = 'https://carbon.now.sh/?l={lang}&code={code}'
+   CARBON = 'https://carbon.now.sh/?bg=rgba(74%2C144%2C226%2C1)&t=blackboard&wt=none&l=dockerfile&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code={code}'
    CARBONLANG = "en"
    textx = await e.get_reply_message()
    pcode = e.text
@@ -60,7 +62,7 @@ async def carbon_api(e):
    await e.client.send_file(
          e.chat_id,
          file,
-         caption="Carbon by [@Three_Cube_TeKnoways_Bot](https://www.github.com/mkaraniya/BotHub)",
+         caption="Carbon by [@viperadnan](https://t.me/viperadnan)",
          force_document=True,
          reply_to=e.message.reply_to_msg_id,
          )
