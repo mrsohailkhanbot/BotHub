@@ -28,21 +28,21 @@ async def _(event):
 
         animation_chars = [
 
-            "B_",
+            "M_",
 
-            "BO_",
+            "MD_",
+ 
+            "S_",
 
-            "BOT_",
+            "SO_",
 
-            "BOT__",
+            "SOH_",
+
+            "SOHA__",
             
-            "BOTH_",
+            "SOHAI_",
             
-            "BOTHU_",
-            
-            "BOTHUB", 
-           
-            "BOTHUB",
+            "SOHAIL_",
 
         ]
 
@@ -137,15 +137,15 @@ async def _(event):
 
         animation_chars = [
 
-            "L_",
+            "SO_",
 
-            "LO_",
+            "SOHAI_",
 
-            "LOV_",
+            "SOHAIL_",
 
-            "LOVE_",
+            "SOHAIL LOVE_",
             
-            "LOVE❤️",
+            "SOHAIL LOVE YOU❤️",
             
             "❤️❤️❤️❤️",
             
@@ -177,17 +177,17 @@ async def _(event):
 
         animation_chars = [
 
-            "H_",
+            "SOH_",
 
-            "HE_",
+            "SOHAIL_",
 
-            "HER_",
+            "SOHAIL IS_",
 
-            "HERO_",
+            "SOHAIL IS HE_",
             
-            "HERO💪🏻💪",
+            "SOHAIL IS HERO💪🏻💪",
             
-            "💪🏻MAYUR KARANIYA💪🏻",
+            "💪🏻SOHAIL KHAN💪🏻",
             
         ]
 
